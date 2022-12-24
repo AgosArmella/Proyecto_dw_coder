@@ -8,53 +8,39 @@ a {
     text-decoration: none;
 }
 
-.navbar {
-    display: inline-block;
-}
-
-.logo {
-    width: 200px;
+.logo-logo {
+    width: 300px;
     height: 100px;
-    margin-left: 10px;
-    position: absolute;
+    justify-content: end;
+    margin-right: 50px;
 }
 
-.menu {
-    position: relative;
-    left: 250px;
-    bottom: 20px;
-    font-size: xx-large;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 100px;
-}
-
-.menu__item {
-    display: inline-block;
-    padding: 2.5rem;
-}
-
-header {
+.navbar-expand-lg {
+    justify-content: center;
     background-image: url(../assets/images/ferrefondito.jpg);
-    height: 11vh;
-    margin-top: 2px;
 }
 
-.menu__link {
-    color: #AB3900;
+.navbar-toggler {
+    filter: invert(108%)
+}
+
+.nav-nav {
+    font-size: 25px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
     background: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
     font-weight: bold;
 }
 
+.header {
+    background-image: url(../assets/images/ferrefondito.jpg);
+}
+
 .main__index {
     background: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
-}
-
-.carousel-inner {
-    width: 1300px;
-    height: 600px;
-    padding-left: 370px;
 }
 
 #carouselExampleControls {
@@ -71,7 +57,8 @@ header {
 }
 
 .titulo__uno {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 55px;
     font-weight: 100px;
     font-family: 'Times New Roman', Times, serif;
@@ -170,42 +157,31 @@ header {
     transform: scale(1.5);
 }
 
-.cardsclavos{
+.cardsclavos {
     display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }
-.cardsalambres{
+
+.cardsalambres {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .titulos_alambres {
     display: flex;
 }
-.clavosuno{
-    padding-left: 250px;
-}
-.clavosdos{
-    padding-left: 100px;
-}
-.clavostres{
-    padding-left: 100px;
-}
 
-.alambresuno{
-    padding-left: 250px;
-}
-.alambresdos{
-    padding-left: 100px;
-}
-.alambrestres{
-    padding-left: 100px;
-}
-
-.card-text{
+.card-text {
     font-size: 25px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #0c364f;
 }
+
 .main__contacto {
     background: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
@@ -236,7 +212,8 @@ header {
     margin-left: 80px;
     color: #0c364f;
 }
-.form__contacto:hover{
+
+.form__contacto:hover {
     transform: scale(1.5);
 }
 
@@ -267,6 +244,7 @@ header {
     padding-left: 5px;
     color: #0c364f;
 }
+
 .estamosaqui:hover {
     transform: scale(1.5);
 }
@@ -450,13 +428,16 @@ header {
 
 .container_cards {
     display: flex;
-    padding-bottom: 50px;
-    text-align: center;
-    padding-left: 400px;
+    flex-wrap: wrap;
+    gap: 15rem;
+    justify-content: center;
 }
 
 .cardos {
-    padding-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15rem;
+    justify-content: center;
 }
 
 .nuestras_marcas {
@@ -487,7 +468,7 @@ footer {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    color: #AB3900;
+    color: black;
     display: inline-block;
     background-color: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
@@ -499,10 +480,70 @@ footer {
 }
 
 .footer__item {
-    color: #AB3900;
+    color: black;
     background-color: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1024px) {
+    .titulo__uno {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nuestras_marcas {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .titulo__uno {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 583px) {
+    .nuestras_marcas {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nuestras_marcas {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .titulo__uno {
+        font-size: 15px;
+    }
+
+    .cardsclavos {
+        font-size: 10px;
+    }
+
+    .cardsalambres {
+        font-size: 10px;
+    }
+
+    .nuestras_marcas {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .titulouno__productos {
+        font-size: 40px;
+    }
+
+    .titulodos__productos {
+        font-size: 30px;
+    }
 }
