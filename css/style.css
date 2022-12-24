@@ -152,9 +152,10 @@ header {
     font-weight: bold;
     color: #0c364f;
 }
-.titulouno__productos:hover{
+
+.titulouno__productos:hover {
     transform: scale(1.5);
-    }
+}
 
 .titulodos__productos {
     padding-top: 100px;
@@ -164,56 +165,47 @@ header {
     font-weight: bold;
     color: #0c364f;
 }
-.titulodos__productos:hover{
+
+.titulodos__productos:hover {
     transform: scale(1.5);
-    }
-
-.imagenes_alambres {
-    display: inline-flex;
 }
 
-.alambre__16 {
-    width: 250px;
-    height: 225px;
-    padding-top: 35px;
-    margin-right: 100px;
+.cardsclavos{
+    display: flex;
 }
-
-.alambre__fardo {
-    width: 250px;
-    height: 225px;
-    padding-top: 35px;
-    margin-right: 100px;
-}
-
-.alambre__6 {
-    width: 250px;
-    height: 225px;
-    padding-top: 35px;
+.cardsalambres{
+    display: flex;
+    position: relative;
 }
 
 .titulos_alambres {
     display: flex;
 }
-
-.alambre16 {
-    padding-left: 310px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
+.clavosuno{
+    padding-left: 250px;
 }
-
-.alambrefardo {
+.clavosdos{
     padding-left: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
 }
-
-.alambre6 {
+.clavostres{
     padding-left: 100px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
 }
 
+.alambresuno{
+    padding-left: 250px;
+}
+.alambresdos{
+    padding-left: 100px;
+}
+.alambrestres{
+    padding-left: 100px;
+}
+
+.card-text{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0c364f;
+}
 .main__contacto {
     background: rgb(241, 236, 185);
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
@@ -242,7 +234,10 @@ header {
     padding-top: 50px;
     position: absolute;
     margin-left: 80px;
-    color: #b71f0e;
+    color: #0c364f;
+}
+.form__contacto:hover{
+    transform: scale(1.5);
 }
 
 .nombreyapellido {
@@ -270,7 +265,10 @@ header {
     padding-top: 50px;
     padding-bottom: 10px;
     padding-left: 5px;
-    color: #b71f0e;
+    color: #0c364f;
+}
+.estamosaqui:hover {
+    transform: scale(1.5);
 }
 
 .direccion {
@@ -450,6 +448,17 @@ header {
     background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
 }
 
+.container_cards {
+    display: flex;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-left: 400px;
+}
+
+.cardos {
+    padding-left: 300px;
+}
+
 .nuestras_marcas {
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -459,56 +468,12 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .nuestras_marcas:hover {
     transform: scale(1.5);
 }
 
-.imagenes__marcas {
-    margin-top: 2rem;
-    display: inline-flex
-}
-
-.imagen_acindar {
-    margin-right: 200px;
-    padding-left: 350px;
-}
-
-.imagen_gerdau {
-    height: 320px;
-    width: 370px;
-    margin-left: 40px;
-    margin-right: 140px;
-}
-
-.textos_marcas {
-    display: inline-flex;
-}
-
-.textouno_marca {
-    background-color: #0c364f;
-    color: aliceblue;
-    font-size: 27px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 340px;
-    margin-right: 20px;
-    width: 400px;
-}
-
-.textodos_marca {
-    background-color: #0c364f;
-    color: aliceblue;
-    font-size: 27px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 200px;
-    margin-right: 20px;
-    width: 400px;
-}
-
-footer{
+footer {
     background-image: url(../assets/images/ferrefondito.jpg);
     text-align: center;
 }
