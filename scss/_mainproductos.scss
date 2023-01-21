@@ -1,0 +1,131 @@
+.main__productos {
+    background: rgb(241, 236, 185);
+    background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
+    text-align: center;
+    font-size: 43px;
+    font-weight: 800 bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 41px;
+    padding-bottom: 40px;
+    color:  $colorprincipal;
+    padding: 3rem;
+
+    .imagenes__clavos {
+        margin-top: 2rem;
+        display: inline-flex
+    }
+
+    .puntaparis__dospulgadas {
+        margin-right: 35px;
+    }
+
+    .puntaparis__trespulgadas {
+        height: 180px;
+        width: 300px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .espiralados__trespulgadas {
+        width: 300px;
+        height: 180px;
+    }
+
+    .clavos {
+        color:  $colorprincipal;
+    }
+
+    .puntaparisdos {
+        float: left;
+        padding-left: 160px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .puntaparisdosymedio {
+        float: left;
+        padding-left: 75px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .puntaparistres {
+        float: left;
+        padding-left: 90px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .espiraladostres {
+        float: right;
+        padding-right: 160px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif
+    }
+
+    .titulouno__productos {
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color:  $colorprincipal;
+    }
+
+    .titulouno__productos:hover {
+        transform: scale(1.5);
+    }
+
+    .titulodos__productos {
+        padding-top: 100px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color:  $colorprincipal;
+    }
+
+    .titulodos__productos:hover {
+        transform: scale(1.5);
+    }
+
+    .cardsclavos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .cardsalambres {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .titulos_alambres {
+        display: flex;
+    }
+
+    .card-text {
+        font-size: 25px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:  $colorprincipal;
+    }
+
+
+    @media screen and (max-width: 550px) {
+        .titulodos__productos {
+            font-size: 30px;
+        }
+    }
+    
+    @media screen and (max-width: 320px) {
+        .titulouno__productos {
+            font-size: 40px;
+        }
+    
+        .titulodos__productos {
+            font-size: 20px;
+        }
+    }
+}

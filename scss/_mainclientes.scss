@@ -1,0 +1,87 @@
+.main__clientes {
+    background: rgb(241, 236, 185);
+    background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
+
+    .opinionesclientes {
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: $colorprincipal;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .opinionesclientes:hover {
+        transform: scale(1.5);
+    }
+
+    .cardsclientes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .card-text {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+        color: $colorprincipal;
+    }
+
+    .valoracion {
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: $colorprincipal;
+        text-align: center;
+        padding-top: 65px;
+        padding-bottom: 67px;
+    }
+
+    .label__uno {
+        color: $colorprincipal;
+
+
+        .label__dos {
+            color: $colorprincipal;
+        }
+
+        .label__tres {
+            color: $colorprincipal;
+        }
+
+        .label__cuatro {
+            color: $colorprincipal;
+        }
+
+        .label__cinco {
+            color: $colorprincipal;
+        }
+
+        @media screen and (max-width: 846px) {
+            .opinionesclientes {
+                font-size: 30px;
+            }
+        }
+
+        @media screen and (max-width: 635px) {
+            .opinionesclientes {
+                font-size: 25px;
+            }
+        }
+
+        @media screen and (max-width: 526px) {
+            .opinionesclientes {
+                font-size: 20px;
+            }
+        }
+
+        @media screen and (max-width: 417px) {
+            .opinionesclientes {
+                font-size: 15px;
+            }
+        }
+    }
+}

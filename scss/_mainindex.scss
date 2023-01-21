@@ -1,0 +1,72 @@
+.main__index {
+    background: rgb(241, 236, 185);
+    background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
+}
+
+main {
+    #carouselExampleControls {
+        padding-bottom: 50px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(108%)
+    }
+
+    .titulo--uno:hover {
+        transform: scale(1.5);
+    }
+
+    .titulo__uno {
+        display: flex;
+        justify-content: center;
+        font-size: 55px;
+        font-weight: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 15px;
+        color:  $colorprincipal;
+        font-weight: bold;
+    }
+
+    @media screen and (max-width: 980px) {
+        .titulo__uno {
+            font-size: 50px;
+        }
+    }
+
+    @media screen and (max-width: 885px) {
+        .titulo__uno {
+            font-size: 40px;
+        }
+    }
+
+    @media screen and (max-width: 711px) {
+        .titulo__uno {
+            font-size: 35px;
+        }
+    }
+
+    @media screen and (max-width: 626px) {
+        .titulo__uno {
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 539px) {
+        .titulo__uno {
+            font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+        .titulo__uno {
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .titulo__uno{
+            font-size: 15px;
+        }
+        }
+}

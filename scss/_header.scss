@@ -1,0 +1,37 @@
+header {
+    .navbar-expand-lg {
+        justify-content: center;
+        background-image: url(../assets/images/ferrefondito.jpg);
+    }
+
+    .logo-logo {
+        width: 300px;
+        height: 100px;
+        justify-content: end;
+        margin-right: 50px;
+    }
+
+    .navbar-toggler {
+        filter: invert(108%)
+    }
+
+    .nav-nav {
+        font-size: 25px;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        background: rgb(241, 236, 185);
+        background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
+        font-weight: bold;
+    }
+
+    .header {
+        background-image: url(../assets/images/ferrefondito.jpg);
+    }
+
+    @media screen and (max-width: 402px) {
+        .logo-logo {
+            padding-left: 50px;
+        }
+        }
+}
