@@ -21,7 +21,7 @@ header .nav-nav {
   font-weight: bold; }
 
 header .header {
-  background-image: url(../assets/images/ferrefondito.jpg); }
+  background-image: url(../assets/images/ferrefondito.webp); }
 
 @media screen and (max-width: 402px) {
   header .logo-logo {
@@ -316,7 +316,7 @@ footer {
   background-image: url(../assets/images/ferrefondito.jpg);
   text-align: center; }
   footer .footer--div {
-    padding-top: 5px; }
+    padding-top: 25px; }
   footer .footer__titulo {
     text-align: center;
     font-size: large;
