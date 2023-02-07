@@ -145,13 +145,16 @@ main .titulo__uno {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
-    justify-content: center; }
+    justify-content: center; 
+}
   .main__productos .cardsalambres {
     display: flex;
     position: relative;
     flex-wrap: wrap;
     gap: 3rem;
-    justify-content: center; }
+    justify-content: center; 
+    padding-top: 40px;
+  padding-bottom: 50px;}
   .main__productos .titulos_alambres {
     display: flex; }
   .main__productos .card-text {
@@ -314,9 +317,10 @@ main .titulo__uno {
 
 footer {
   background-image: url(../assets/images/ferrefondito.jpg);
-  text-align: center; }
+  text-align: center; 
+}
   footer .footer--div {
-    padding-top: 25px; }
+    padding-top: 5px; }
   footer .footer__titulo {
     text-align: center;
     font-size: large;
@@ -328,11 +332,13 @@ footer {
     background: radial-gradient(circle, #f1ecb9 0%, #d4c48e 31%, #d6ba7e 100%); }
   footer .footer__link {
     display: inline-block;
-    font-size: large; }
+    font-size: large; 
+}
   footer .footer__item {
     color: black;
     background-color: #f1ecb9;
     background: radial-gradient(circle, #f1ecb9 0%, #d4c48e 31%, #d6ba7e 100%);
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: bold; }
+    font-weight: bold; 
+}
