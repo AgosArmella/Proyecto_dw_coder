@@ -1,0 +1,64 @@
+.main__marcas {
+    background: rgb(241, 236, 185);
+    background: radial-gradient(circle, rgba(241, 236, 185, 1) 0%, rgba(212, 196, 142, 1) 31%, rgba(214, 186, 126, 1) 100%);
+
+    .container_cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15rem;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .cardos {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15rem;
+        justify-content: center;
+    }
+
+    .nuestras_marcas {
+        font-size: 45px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color:  $colorprincipal;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .nuestras_marcas:hover {
+        transform: scale(1.5);
+    }
+
+    
+@media screen and (max-width: 768px) {
+    .nuestras_marcas {
+        font-size: 35px;
+    }
+}
+    
+@media screen and (max-width: 591px) {
+    .nuestras_marcas {
+        font-size: 30px;
+    }
+}
+    
+@media screen and (max-width: 500px) {
+    .nuestras_marcas {
+        font-size: 25px;
+    }
+}
+    
+@media screen and (max-width: 414px) {
+    .nuestras_marcas {
+        font-size: 20px;
+    }
+}
+    
+@media screen and (max-width: 330px) {
+    .nuestras_marcas {
+        font-size: 15px;
+    }
+}
+}
